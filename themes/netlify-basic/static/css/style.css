@@ -8,3 +8,17 @@
 nav.main_menu{
     background: #D8A556 !important;
 }
+.main_menu li.nav-item .active {
+    background: linear-gradient(to bottom,#bb8a3e 0,#a77423 100%);
+}
+
+.main_menu li.nav-item a {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
